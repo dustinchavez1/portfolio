@@ -7,10 +7,11 @@
 /* In your CSS file like globals.css */
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 105, 105, 105;
-}
+  --foreground-rgb: 241, 250, 238;
+    --background-start-rgb: 29, 53, 87;
+    --background-end-rgb: 0, 0, 0;
+  }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
