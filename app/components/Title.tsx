@@ -9,7 +9,8 @@ const Title = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div>
             <h1 className="text-6xl">Dustin Chavez</h1>
-            <h2 className="text-4xl mt-5">CSUF '24 | Software Engineer</h2>
+            <h2 className="text-4xl mt-5">CSUF &apos;24 | Software Engineer</h2>
+
             <a
               href="https://drive.google.com/file/d/1OIuZLpFbGBt05edMM11VXFjJb5DB2nuI/view?usp=sharing"
               target="_blank"
