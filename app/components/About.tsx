@@ -27,12 +27,11 @@ const About = () => {
 
           {/* Text Container */}
           <div className="max-w-md ml-10"> {/* Adjust spacing as needed */}
-            <p className="mb-4">
-              I am a senior at CSUF graduating in May 2024 who started programming in college.
+            <p className="mb-4 text-xl">
+              I am a senior at CSUF studying computer science graduating in May 2024 with an interest in software engineering
             </p>
-            <p>
-              I'm a big fan of my two cats, Winston and Josie – they're a huge part of my life. 
-              I've also recently gotten into golfing and I'm really enjoying it so far.
+            <p className="mb-4 text-xl" >
+              Outside of programming, I enjoy golfing ⛳ and spending time with my friends and cats 🐈‍ 
             </p>
           </div>
         </div>

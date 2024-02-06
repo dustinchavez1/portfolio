@@ -9,23 +9,23 @@ const Navbar = () => {
           <div className="flex justify-center items-center h-full">
             <ul className="hidden md:flex gap-x-20 mr-10 text-nearwhite text-2xl">
             <li>
-                <Link className="text-white-500 hover:text-orange-300" href="/projects">
+                <Link className="text-white-500 hover:text-orange-300" href="#about">
                     About Me
                 </Link>
               </li>
             <li>
-                <Link className="text-white-500 hover:text-orange-300" href="/projects">
+                <Link className="text-white-500 hover:text-orange-300" href="#experience">
                     Experience
                 </Link>
               </li>
               <li>
-                <Link className="text-white-500 hover:text-orange-300" href="/projects">
+                <Link className="text-white-500 hover:text-orange-300" href="#projects">
                     Projects
                 </Link>
               </li>
               
               <li>
-                <Link className="text-white-500 hover:text-orange-300" href="/contact">
+                <Link className="text-white-500 hover:text-orange-300" href="#contact">
                     Contact
                 </Link>
               </li>

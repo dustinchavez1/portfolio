@@ -4,25 +4,26 @@ import React, { useState } from 'react';
 const experiences = [
     {
         id: 1,
-        role: "Undergraduate Research Assistant",
-        date: "June 2023 - August 2023",
-        name: 'CIC | PCUBED CSUF',
-        description: [
-            "Conducted research on stock market trading strategy pairs trading by extracting stock data from Yahoo Finance and developing a program to determine if two stocks are viable for pairs trading using statistical methods.",
-            "Contributed to research reports and presentations, communicating findings and insights to both technical and non-technical audiences."
-        ]
-    },
-    {
-        id: 2,
         role: "Software Developer",
         date: "November 2023 - Present",
         name: 'Corproexta',
         description: [
-            "Developed a comprehensive dashboard automating order tracking for all truck deliveries, significantly enhancing operational efficiency and oversight across the company.",
+            "Developed a full stack  comprehensive dashboard using MEVN stack (Mongodb, Express, Vue.js, Node.js), automating order tracking for all deliveries, significantly enhancing operational efficiency and oversight across the company ",
             "Designed and implemented MongoDB databases for streamlined data management, supporting effective and efficient operation of supply chain management applications.",
-            "Implemented secure access control for the monitoring dashboard, ensuring restricted access to select users through advanced encryption and authorization protocols."
+            "Implemented secure access control for the monitoring dashboard, ensuring restricted access to select users through encryption and authorization protocols"
         ]
     },
+    {
+        id: 2,
+        role: "Undergraduate Research Assistant",
+        date: "June 2023 - August 2023",
+        name: 'CIC | PCUBED CSUF',
+        description: [
+            "Conducted research on stock market trading strategy pairs trading by extracting stock data from Yahoo Finance and developing a C++ program to determine if two stocks are viable for pairs trading using statistical methods",
+            "Contributed to research reports and presentations, communicating findings and insights to both technical and non-technical audiences."
+        ]
+    },
+    
     // Add more experiences as needed
 ];
 
