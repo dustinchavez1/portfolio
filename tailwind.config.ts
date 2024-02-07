@@ -22,6 +22,21 @@ const config: Config = {
       fontFamily: {
         sans: ['Comfortaa', 'sans-serif'] // Add Comfortaa to the sans font family
       },
+      keyframes: {
+        fadeInLeft: {
+          '0%': {
+            opacity: 0,
+            transform: 'translateX(-100%)',
+          },
+          '100%': {
+            opacity: 1,
+            transform: 'translateX(0)',
+          },
+        },
+      },
+      animation: {
+        'fade-in-left': 'fadeInLeft 0.8s ease-out forwards',
+      },
     },
   },
   plugins: [],

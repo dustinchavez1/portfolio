@@ -4,22 +4,26 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Title from "./components/Title"
+import Title from "./components/Title";
+
 export default function Home() {
   return (
     <>
       <Navbar />
+      <div className="animate-fade-in-left">
       <Title />
-      <div id="about">
+      </div>
+      
+      <div id="about" className="animate-fade-in-left">
         <About />
       </div>
-      <div id="experience">
+      <div id="experience" className="animate-fade-in-left">
         <Experience />
       </div>
-      <div id="projects">
+      <div id="projects" className="animate-fade-in-left">
         <Projects />
       </div>
-      <div id="contact">
+      <div id="contact" className="animate-fade-in-left">
         <Contact />
       </div>
     </>
