@@ -5,18 +5,21 @@ const experiences = [
     {
         id: 1,
         role: "Software Developer",
-        date: "November 2023 - Present",
+        date: "July 2023 - July 2024",
         name: 'Corproexta',
         description: [
-            "Developed a full stack  comprehensive dashboard using MEVN stack (Mongodb, Express, Vue.js, Node.js), automating order tracking for all deliveries, significantly enhancing operational efficiency and oversight across the company ",
-            "Designed and implemented MongoDB databases for streamlined data management, supporting effective and efficient operation of supply chain management applications.",
-            "Implemented secure access control for the monitoring dashboard, ensuring restricted access to select users through encryption and authorization protocols"
+            "Engineered a full stack dashboard using the MEVN stack (MongoDB, Express, Vue.js, Node.js) to automate order tracking for 2000 trucking deliveries monthly",
+            "Developed mobile app functionalities, allowing real-time updates and data visualization to the dashboard",
+            "Implemented a notification system to alert warehouse managers of key events",
+            "Created role-based authorization panels using JWT, enabling different permissions for various user roles",
+            "Implemented functionality to generate and save new client information as unique codes, streamlining client management and improving data organization"
+
         ]
     },
     {
         id: 2,
         role: "Undergraduate Research Assistant",
-        date: "June 2023 - August 2023",
+        date: "May 2023 - July 2023",
         name: 'CIC | PCUBED CSUF',
         description: [
             "Conducted research on stock market trading strategy pairs trading by extracting stock data from Yahoo Finance and developing a C++ program to determine if two stocks are viable for pairs trading using statistical methods",
